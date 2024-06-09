@@ -58,9 +58,8 @@ z-index: 1000;
     flex-direction: column;
     position: relative;
     display: flex;    
-    margin-right: 5%;
+    margin-right: 10%;
     width: 70%;
-    background-color: rgb(77, 77, 77);
 }
 
 
@@ -92,7 +91,6 @@ button:hover{
     display: flex;    
     margin-right: 2%;
     width: 60%;
-    background-color: rgb(77, 77, 77);
 }
 
 .modal {
