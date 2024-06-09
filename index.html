@@ -23,7 +23,7 @@
 
       <div class="text_n_btn">
 
-        <h1 id="abt_poster1">
+        <p id="abt_poster1">
           LAN-PARTY: погружение&nbsp;в&nbsp;мир технологий&nbsp;и&nbsp;развлечений! Приглашаем всех любителей компьютерных игр, 
           технологий&nbsp;и&nbsp;ярких эмоций&nbsp;на&nbsp;незабываемое LAN-мероприятие!<br><br>
           
@@ -37,7 +37,7 @@
           
           Обратите внимание,&nbsp;для&nbsp;участия&nbsp;в&nbsp;мероприятии необходима регистрация.
           
-          &nbsp;С&nbsp;нетерпением ждём вас&nbsp;на&nbsp;нашем LAN-party!</h>
+          &nbsp;С&nbsp;нетерпением ждём вас&nbsp;на&nbsp;нашем LAN-party!</p>
 
           <button id="openModalBtn">Регистрация</button>
 
@@ -54,14 +54,21 @@
     
           <div id="modal" class="modal">
             <div class="modal-content">
+              
               <span class="close">&times;</span>
-              <h1>Форма</h1>
               <form id="myForm">
-                <label for="name">Имя:</label>
-                <input type="text" id="name" name="name" required><br><br>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required><br><br>
-                <input type="submit" id="submit_it" value="Отправить">
+                <p id="registration">Контактные данные</p>
+            
+                <!-- <label class="form_mail" for="email">Почта</label> -->
+                <input placeholder="Электронная почта" type="email" name="email" id="email-address">
+                <!-- <input type="email" id="email" name="email" required><br><br> -->
+
+                <!-- <label class="form_name" for="name">Имя</label> -->
+                <input placeholder="Телефон" type="tel" name="number" id="mobile_phone">
+                <!-- <input type="text" id="name" name="name" required><br><br> -->
+
+                <input type="submit" id="submit_it" value="Завершить регистрацию">
+
               </form>
             </div>
           </div>

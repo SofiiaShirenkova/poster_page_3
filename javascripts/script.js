@@ -27,9 +27,10 @@ document.addEventListener("DOMContentLoaded", function() {
     event.preventDefault(); // Предотвращаем отправку формы
 
     // Здесь можно добавить код для отправки данных формы на сервер
-    alert("Форма отправлена!");
+    // alert("Форма отправлена!");
     modal.style.display = "none"; // Закрываем модальное окно после отправки
     form.reset(); // Сбрасываем содержимое формы
-});
+    });
+
 
 });
