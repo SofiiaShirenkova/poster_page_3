@@ -19,7 +19,7 @@
 
 
 @media screen and (min-width: 415px) and (max-width: 768px) {
-   
+
 }
 
 @media screen and (max-width: 414px) {
@@ -30,6 +30,16 @@
         /* font-weight: 2vw; */
         font-size: 1,5vw;
         color: #00FF19;
+    }
+
+    .box_for_poster1{
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+        display: flex;  
+        width: 30%;
+        margin-top: 5%;
+        margin-left: -2%;
     }
 
 }
